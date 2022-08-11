@@ -112,7 +112,7 @@ volumeClaimTemplate:
       storage: 30Gi
 
 rbac:
-  create: false
+  create: true
   serviceAccountAnnotations: {}
   serviceAccountName: ""
   automountToken: true
