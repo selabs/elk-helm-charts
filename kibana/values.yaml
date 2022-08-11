@@ -45,7 +45,7 @@ hostAliases: []
 #  - "bar.local"
 
 image: "docker.elastic.co/kibana/kibana"
-imageTag: "8.1.0"
+imageTag: "8.3.3"
 imagePullPolicy: "IfNotPresent"
 
 # additionals labels
@@ -144,7 +144,7 @@ service:
 
 ingress:
   enabled: false
-  className: "nginx"
+  className: "nginx-ingress"
   pathtype: ImplementationSpecific
   annotations: {}
   # kubernetes.io/ingress.class: nginx
